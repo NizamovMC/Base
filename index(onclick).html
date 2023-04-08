@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styly(onclick).css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <p><b>Task 1.</b></p>
+        <p>Добавьте на блок .div-1 событие клик и по клику запуск функции t1. Функция должна возвращать и выводить
+            на экран содержимое блока (только текст). Вывод осуществляется в out-1. </p>
+        <div class="block div-1">task-1</div>
+        <div class="out-1">
+        </div>
+    </section>
+
+    <section>
+        <p><b>Task 2.</b></p>
+        <p>Добавьте на блок .div-2 событие клик и по клику запуск функции t2. Функция должна
+            возвращать true или false в зависимости от того, нажата ли клавиша alt или нет в момент клика. Также,
+            выводите на экран результат. Вывод осуществляется в out-2.</p>
+        <div class="block div-2">task-2</div>
+        <div class="out-2">
+        </div>
+    </section>
+
+    <section>
+        <p><b>Task 3.</b></p>
+        <p>Добавьте на блок .div-3 событие клик. При клике - увеличивайте ширину блока на 5px.
+            Каждый клик - увеличение ширины на 5px. 10 кликов - на 50px. Ширину выводите в out-3. </p>
+        <div class="block div-3">task-3</div>
+        <div class="out-3">
+        </div>
+    </section>
+
+    <section>
+        <p><b>Task 4.</b></p>
+        <p>Добавьте на блок .div-4 событие двойной клик и по двойному клику запуск функции t4.
+            Функция должна возвращать и выводить на экран содержимое блока (только текст). Вывод осуществляется в
+            out-4. </p>
+        <div class="block div-4">task-4</div>
+        <div class="out-4">
+        </div>
+    </section>
+
+    <section>
+        <p><b>Task 5.</b></p>
+        <p>Дан блок .div-5.active. Добавьте на него событие двойной клик, по которому удалется класс
+            active если он есть и добавляется если такого класса нет. </p>
+        <div class="block div-5 active">task-5</div>
+        <div class="out-5">
+        </div>
+    </section>
+
+    <section>
+        <p><b>Task 6.</b></p>
+        <p> Дан блок .div-6 и список .ul-6. При двойном клике на блоке скрывайте .ul-6 если он
+            показан и
+            показывайте если скрыт. Скрытие и показ делайте через добавление - удаление класса .hide </p>
+        <div>
+
+            <div class="block div-6">task-6</div>
+            <ul class="ul-6">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+            <div class="out-6">
+            </div>
+    </section>
+    
+    <section>
+        <p><b>Task 7.</b></p>
+        <p>Дан блок .div-7. При клике правой кнопкой мыши на блоке добавляйте ему класс .active. При
+            повторном клике - удаляйте.</p>
+        <div>
+
+            <div class="block div-7">task-6</div>
+            <div class="out-7">
+            </div>
+    </section>
+
+    <section>
+        <p><b>Task 8.</b></p>
+        <p>Дано checkbox .ch-8. Повесьте на него событие onchange при котором на документе
+            отключается клик правой кнопкой мыши если checkbox выбран и отключает если не выбран.</p>
+        <div>
+
+            <div class="form-control">
+                <label>
+                    <input type="checkbox" class="ch-8"> включить / выключить
+                    контекстное меню
+                </label>
+            </div>
+            <div class="out-8">
+            </div>
+    </section>
+
+    <section>
+        <p><b>Task 9.</b></p>
+        <p>Дан блок .div-9. Внутри блока - изображение 1.png. При клике правой кнопкой мыши -
+            меняйте изображение на 2.png. Надеюсь вы догадаетесь изменить только src изображения?</p>
+        <div>
+
+            <div class="div-9 block">
+                <img src="img/1.png" alt="">
+            </div>
+            <div class="out-9">
+            </div>
+    </section>
+
+    <section>
+        <p><b>Task 10.</b></p>
+        <p>Дан блок .div-10. Внутри блока - изображение 1.png. При наведении мыши (mouseenter) -
+            меняйте изображение на 2.png.</p>
+        <div>
+
+            <div class="div-10 block">
+                <img src="img/1.png" alt="">
+            </div>
+            <div class="out-10">
+            </div>
+    </section>
+
+    <section>
+        <p><b>Task 11.</b></p>
+        <p>Дан блок .div-11. Внутри блока - изображение 1.png. При наведении мыши (mouseenter) -
+            меняйте изображение на 2.png. При уведении мыши - mouseleave - возвращайте исходное изображение. </p>
+        <div>
+
+            <div class="div-11 block">
+                <img src="img/1.png" alt="">
+            </div>
+            <div class="out-11">
+            </div>
+    </section>
+
+    <script src="js(onclick).js"></script>
+</body>
+</html>
