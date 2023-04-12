@@ -1,0 +1,29 @@
+.container {
+    width: 200px;
+    height: 300px;
+    border: solid;
+    border-radius: 10px;
+    background-color: darkcyan;
+  }
+  .button-primary-1 {
+  margin-top: 100px;
+  margin-left: 134px;
+}
+.input-1 {
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 145px;
+}
+.input-2 {
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 145px;
+}
+.out {
+  width: 50px;
+  height: 20px;
+  border: solid;
+  margin-top: 5px;
+  margin-left: 145px;
+  background-color: aliceblue;
+}
