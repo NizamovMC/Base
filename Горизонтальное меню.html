@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="menu">
+  <ul class="horizontal">
+    <li><a class="button" href="#">Главная</a></li>
+    <li><a class="button" href="#">Новости</a></li>
+    <li><a class="button" href="#">Контакты</a></li>
+    <li><a class="button" href="#">О компании</a></li>
+    <li><a class="button" href="#">Как добраться</a></li>
+   </ul>
+    </div>
+</body>
+</html>
+
+CSS
+
+li{
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}
+.horizontal{
+list-style: none;
+}
+.button{
+  border: solid 1px;
+  text-decoration: none;
+  padding: 4px;
+  display: inline;
+  background-color: 0, 0, 0;
+  }
+ .button:hover{
+   border: solid 1px;
+  width: 200px;
+  padding: 4px;
+  display: block;
+  background-color: red;
+  text-decoration: none;
+  }

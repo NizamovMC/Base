@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="menu">
+  <ul class="horizontal">
+    <li class="a"><a class="button" href="#">Главная</a></li>
+    <li class="b"><a class="button" href="#">Информация о том, как доехать </a></li>
+    <li class="c"><a class="button" href="#">О компании</a></li>
+    <li class="d"><a class="button" href="#">О нас</a></li>
+    <li class="c"><a class="button" href="#">Продукция</a></li>
+    <li class="d"><a class="button" href="#">Наши упехи</a></li>
+    <li class="c"><a class="button" href="#">Наши работники</a></li>
+    <li class="d"><a class="button" href="#">Наши зарплаты</a></li>
+   </ul>
+    </div>
+</body>
+</html>
+
+CSS
+
+ .menu{
+  width: 700px;
+	border: 1px solid black;
+	background: blue;
+  margin: 0 auto;
+}
+.horizontal{
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+  padding: 0px; 
+	margin: 0px;
+}
+.button{
+  text-decoration: none;
+  padding: 10px;
+	color: white;
+	display: block;
+}
+.button:hover{
+  background-color: white;
+	color: blue;
+}
+li{
+  list-style-type: none;
+	text-align: center;
+  border: 1px solid red;
+}
