@@ -1,0 +1,9 @@
+function findMultiples(integer, limit) {
+  let array = [];
+  let sum = 0;
+  for (let i = integer; i <= limit; i += integer) {
+    sum += integer;
+    array.push(sum);
+  }
+  return array;
+}
