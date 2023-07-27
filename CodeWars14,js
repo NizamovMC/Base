@@ -1,0 +1,15 @@
+const formula = (str, a, b) => {
+  if (str === "+") {
+    return a + b;
+  }
+  if (str === "-") {
+    return a - b;
+  }
+  if (str === "*") {
+    return a * b;
+  }
+  if (str === "/") {
+    return a / b;
+  }
+};
+formula("+", 2, 2);
