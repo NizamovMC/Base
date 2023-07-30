@@ -1,4 +1,7 @@
-function capitalizeWord(word) {
-  let newWord = word[0].toUpperCase() + word.slice(1);
-  return newWord;
+function simpleMultiplication(number) {
+  if (number % 2 === 0) {
+    return number * 8;
+  } else {
+    return number * 9;
+  }
 }
